@@ -1,0 +1,44 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 24px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: 'Archivo Black', sans-serif;
+  line-height: 1.5;
+  color: white;
+  background-color: #BBCDE5
+
+  }  
+      .center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transorm: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+        text-align:Center;
+}
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+.inputClass {
+  border-radius: 8px;
+  background: #ffffff;
+  padding:3px;
+}
+
